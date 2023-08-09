@@ -11,7 +11,7 @@ import jakarta.persistence.*;
 public class ListDokterEntity {
 
     @Id
-    @JsonIgnore
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "listdokter_id")
     private Long id;
